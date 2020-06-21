@@ -4,3 +4,36 @@
  2. Если переменная test не равна true, то выведите 'Верно', иначе выведите 'Неверно'. Проверьте работу скрипта при test, равном true, false. Напишите два варианта скрипта - с короткой записью и с длинной.
 
  */
+
+// Task 1
+
+let test = true;
+
+if (test === true) {
+    alert('Верно');
+} else {
+    alert('Неверно');
+}
+
+test = false;
+
+if (test === true)
+    alert('Верно');
+else
+    alert('Неверно');
+
+// Task 2
+
+
+if (test !== true) {
+    alert('Верно');
+} else {
+    alert('Неверно');
+}
+
+test = true;
+
+if (test !== true)
+    alert('Верно');
+else
+    alert('Неверно');
